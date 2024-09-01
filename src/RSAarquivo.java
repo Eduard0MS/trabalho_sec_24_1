@@ -224,7 +224,7 @@ public class RSAarquivo {
         RSAarquivo rsaArquivo = new RSAarquivo(1024);
 
         // Exemplo de arquivo
-        File file = new File("C:\\Users\\61488665362\\IdeaProjects\\seguranca\\src\\selfie.jpg");
+        File file = new File("D:\IntelliJ\projetos_unb\PROJETO_SEGURAN\src\selfie.jpg");
 
         // Assinar o arquivo
         String signedData = rsaArquivo.sign(file);
