@@ -336,7 +336,7 @@ public class AES {
 
     public static void main(String[] args) throws Exception {
         // Caminho para o arquivo de imagem
-        File imageFile = new File("C:\\Users\\61488665362\\IdeaProjects\\seguranca\\src\\selfie.jpg");
+        File imageFile = new File("D:\IntelliJ\projetos_unb\PROJETO_SEGURAN\src\selfie.jpg");
         byte[] imageData = Files.readAllBytes(imageFile.toPath());
 
         // Chave de 192 bits e nonce (IV)
