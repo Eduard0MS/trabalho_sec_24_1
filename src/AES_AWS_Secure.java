@@ -89,7 +89,7 @@ interface KeyRepository {
     SecretKey unwrap(WrappedKey wrapped) throws Exception;
 }
 
-/** Implementação real usando AWS KMS */
+/** Implementação prod. usando AWS KMS */
 class AwsKmsRepository implements KeyRepository {
     private final KmsClient kms;
     private final String cmkId;
